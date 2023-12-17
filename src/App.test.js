@@ -46,7 +46,7 @@ test("renders with a specific class name", () => {
   const { container } = render(<App />);
 
   // Check if the element with the specified class exists
-  const elementWithClassName = container.querySelector(".key"); // Replace 'example-class' with the actual class name
+  const elementWithClassName = container.querySelector(".ke"); // Replace 'example-class' with the actual class name
   expect(elementWithClassName).toBeInTheDocument();
 });
 
@@ -59,7 +59,7 @@ test("renders with a specific class name", () => {
   const { container } = render(<App />);
 
   // Check if the element with the specified class exists
-  const elementWithClassName = container.querySelector(".letter"); // Replace 'example-class' with the actual class name
+  const elementWithClassName = container.querySelector(".lette"); // Replace 'example-class' with the actual class name
   // expect(elementWithClassName).toBeInTheDocument();
 });
 
